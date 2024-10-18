@@ -137,6 +137,18 @@ hr{
     margin-bottom: 30px;
 }
 
+@media (max-width: 768px){
+    .container {
+        background-color: white;
+        border-radius: 10px;
+        max-width: 375px;
+        margin: 0 auto;
+        line-height: 30px;
+        overflow-x: hidden;
+    }
+    
+}
+
 
 
 
