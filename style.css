@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0e2cc;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.container img {
+    width: 309px; 
+    height: 170px; /* Maintain aspect ratio */
+    margin-left: 35px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 375px;
+    margin: 0 auto;
+    margin-bottom: 200px; 
+    margin-top: 100px;
+    line-height: 30px;
+    overflow-x: hidden;
+}
+
+.omlette h1{
+    padding: 20px;
+   position: relative;
+   left: -20px;
+}
+
+.preparation-time{
+    background-color: #FCE4EC;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.preparation-time h3{
+    color:  #86315c;
+    padding-bottom: 5px;
+}
+.preparation-time ::marker {
+    color: #86315c;
+}
+
+
+.ingredient{
+    padding-top: 30px;
+}
+
+.ingredient h3{
+    font-size: 2em;
+    font-family: 'Times New Roman';
+    color: #9c5835;
+    padding-bottom: 20px;
+}
+
+.ingredient ::marker{
+    color: #9c5835;
+}
+
+hr{
+    width: 90%;
+}
+
+.first-hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.instructions{
+    line-height: 2em;
+}
+
+.instructions h2{
+    color: #9c5835;
+    font-family: 'Times New Roman';
+    font-size: 2em;
+    position: relative;
+    top: 10px;
+}
+
+.instructions h6{
+    font-size: 1.1em;
+    color: #9c5835;
+}
+
+.below-text{
+    position: relative;
+    right: -20px;
+}
+
+.nutrition b {
+    position: relative;
+    top: -10px;
+    margin-left: 200px;
+    font-size: 1.05;
+    color: #b45b2e;
+ }
+
+ .nutrition h2{
+    padding-bottom: 25px;
+ }
+
+ .nut-values, .nut-value, .nut-valu, .nut-val {
+    display: flex;
+}
+ 
+.nut-values p, .nut-value p, .nut-valu p, .nut-val p{
+    position: relative;
+    bottom: -20px;
+    right: -30px;
+    font-size: 1.05em;
+}
+
+.udoka{
+    margin-left: 30px;
+
+}
+
+.eggs {
+    display: flex;
+    gap: 10px;
+    width: 100%; /* Change to allow responsive behavior */
+    position: relative;
+    top: 30px;
+}
+
+
+.instructions h4, h6{
+    margin-bottom: 30px;
+}
+
+
+
+
+ 
